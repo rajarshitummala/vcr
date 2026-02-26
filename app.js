@@ -4,8 +4,10 @@ const port = 8080;
 
 app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.send('test');
+app.get('/locations/:zip', (req, res) => {
+  const {scale} = req.query;
+  const zip = req.params.zip;
+  res.send(`${scale} ${zip}`);
 });
 
 app.listen(port, () => {
