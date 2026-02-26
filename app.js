@@ -15,7 +15,6 @@ function setLocation(data) {
 
 // Process the temperature data into a JSON object
 function setData(dat) {
-  console.log(dat);
   data = {"temperature": dat.current.temperature_2m, "scale": scale};
 }
 
