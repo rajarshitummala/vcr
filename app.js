@@ -46,3 +46,5 @@ app.get('/locations/:zip', async (req, res) => {
 app.listen(port, () => {
   console.log(`${port}`);
 });
+
+module.exports = app;

@@ -6,5 +6,6 @@ My design takes in the zipcode and optional scale parameter from the GET request
 
 ## References
 
-All of the code is my original work. I used resources like W3Schools, the OpenMeteo API documentation and StackOverflow for documentation and help, but the code is my own work.
+All of the code in app.js is my original work. I used resources like W3Schools, the OpenMeteo API documentation and StackOverflow for documentation and help, but the code is my own work.
+For test.js I modified a skeleton from W3Schools, the link is in a comment in test.js.
 The APIs I used are from OpenMeteo which is available here: https://open-meteo.com/
